@@ -7,10 +7,10 @@
 安装好nodejs和cnpm，可以参考这篇[文章](http://lyallchan.github.io/2015/12/10/%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AEnvm%E3%80%81nodejs%E5%92%8Chexo/)
 
 ```bash
-cnpm install hexo-cli -g
-git clone git@github.com:lyallchan/blog_src.git blog
+npm install hexo-cli -g
+git clone git@github.com:lyallchan/hexo_post.git blog
 cd blog
-cnpm install 
+npm install 
 ```
 
 # 增加文章和发布
@@ -20,5 +20,17 @@ cnpm install
 ```bash
 cd blog
 hexo d -g
+```
+
+# 如果需要从头安装
+
+```
+mkdir blog
+cd blog
+npx hexo init
+npm install hexo-deployer-git --save
+npm install hexo-theme-next@7.8.0 --save
+npm install hexo-simple-image --save
+git init
 ```
 
