@@ -7,7 +7,6 @@
 安装好nodejs和cnpm，可以参考这篇[文章](http://lyallchan.github.io/2015/12/10/%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AEnvm%E3%80%81nodejs%E5%92%8Chexo/)
 
 ```bash
-npm install hexo-cli -g
 git clone git@github.com:lyallchan/hexo_post.git blog
 cd blog
 npm install 
