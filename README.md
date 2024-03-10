@@ -31,5 +31,10 @@ npm install hexo-deployer-git --save
 npm install hexo-theme-next@7.8.0 --save
 npm install hexo-simple-image --save
 git init
+cp _config.yml _config.next.yml .gitignore 拷贝配置文件
+git add . 
+git commit -m "Update"
+git remote  add origin git@github.com:lyallchan/hexo_post.git
+git push --set-upstream origin master
 ```
 
