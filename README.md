@@ -24,7 +24,7 @@ hexo d -g
 
 # 如果需要从头安装
 
-```
+```bash
 mkdir blog
 cd blog
 npx hexo init
