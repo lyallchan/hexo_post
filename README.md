@@ -35,5 +35,5 @@ cp _config.yml _config.next.yml .gitignore 拷贝配置文件
 git add . 
 git commit -m "Update"
 git remote  add origin git@github.com:lyallchan/hexo_post.git
-git push --set-upstream origin main
+git push --set-upstream origin master
 ```
